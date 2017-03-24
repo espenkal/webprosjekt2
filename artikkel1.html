@@ -8,9 +8,9 @@
     <title>ThermoFloor - Artikkel</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
+
     <!-- our css -->
-     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -44,8 +44,8 @@
         </div>
     </div>
 
-       <!-- artikkel -->
-       <div class="container">
+    <!-- artikkel -->
+    <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <h1>Inn i varmen</h1>
@@ -75,9 +75,10 @@
 
                 <p>Mauris tempor justo dolor, imperdiet pulvinar magna porta nec. Integer vitae ultrices odio. Aliquam tincidunt mollis pharetra. Nam volutpat quam libero, et ullamcorper nibh imperdiet ut.</p>
             </div>
-            
+
             <div class="col-sm-12"><img class="img-fluid mx-auto d-block" src="http://placehold.it/700x350" alt="img alt">
-            <p class="small text-center">bilde beskrivelse.</p></div>
+                <p class="small text-center">bilde beskrivelse.</p>
+            </div>
         </div>
 
         <div class="row" style="padding-top:20px;">
@@ -95,7 +96,41 @@
                 <p>Donec blandit vel turpis vel condimentum. Aliquam erat volutpat. Fusce ut ligula enim. In faucibus augue dapibus urna dignissim, ut tincidunt urna congue. Donec aliquam mauris vehicula ipsum ornare porta eu quis ex.</p>
             </div>
         </div>
-    </div>
+        <!-- produkt -->
+        <div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="http://placehold.it/300x150" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Produkttittel</h4>
+    <p class="card-text">Produkt beskrivelse her</p>
+  </div>
+</div>
+        
+        
+        <!-- Collapse -->
+        <div class="row" style="padding-top:30px">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-primary btn-md" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Interessert? Ta kontakt med en installatør</button>
+                <div class="collapse" id="collapseExample">
+                    <div class="card">
+                        <div class="card-block text-left">
+                            <form>
+                                <div class="form-group">
+                                    <label for="navn">Navn</label>
+                                    <input type="text" class="form-control" id="navn" placeholder="Ola Nordmann">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                </div>
+                                <textarea class="form-control" rows="3" placeholder="Din melding her"></textarea>
+                                <button type="submit" class="btn btn-default">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Footer -->
         <hr>
         <footer class="footer">
