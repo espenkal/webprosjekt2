@@ -36,21 +36,15 @@ html, body {
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-
-/*
-.jumbotron {
-    background-color: none;
-    background-image: url('../img/1.jpg');
-    background-position: center;
-    background-size: cover;
 }
-*/
 
-/*
-
-.col-sm-12 {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
+h2 a {
+    border: 2px solid #0275d8;
+    padding: 5px 10px 5px 10px;
 }
-*/
+
+h2 a:hover {
+    background-color: #0275d8;
+    text-decoration: none;
+    color: white;
+}
