@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
-
-html, body {
-  font-family: 'Oxygen', sans-serif;
+html,
+body {
+    font-family: 'Oxygen', sans-serif;
 }
 
 #share-buttons img {
@@ -26,16 +26,23 @@ html, body {
     max-width: 970px;
 }
 
+
 /* centered columns styles */
+
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
+
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:left;
+    text-align: left;
     /* inline-block space fix */
+}
+
+h2 {
+    font-size: 30px;
 }
 
 h2 a {
