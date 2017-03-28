@@ -41,6 +41,8 @@ body {
     /* inline-block space fix */
 }
 
+/* Faktisk i bruk */
+
 h2 {
     font-size: 30px;
 }
@@ -54,4 +56,20 @@ h2 a:hover {
     background-color: #0275d8;
     text-decoration: none;
     color: white;
+}
+
+.jumbotron-fluid {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-color: none;
+    background-position: center center;
+    height: 300px;
+}
+
+.jumbotron-fluid h1.display-3 a {
+    color: black;
+}
+
+.col-md-6, .col-lg-4 {
+    margin-bottom: 30px;
 }
