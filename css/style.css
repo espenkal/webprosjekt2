@@ -48,14 +48,18 @@ h2 {
 }
 
 h2 a {
-    border: 2px solid #0275d8;
+    border: 2px solid darkred;
     padding: 5px 10px 5px 10px;
 }
 
 h2 a:hover {
-    background-color: #0275d8;
+    background-color: darkred;
     text-decoration: none;
     color: white;
+}
+
+a {
+    color: darkred;
 }
 
 .jumbotron-fluid {
