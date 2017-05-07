@@ -44,26 +44,15 @@ body {
 /* Faktisk i bruk */
 
 h2 {
-    font-size: 30px;
-}
-
-h2 a {
-    border: 2px solid darkred;
-    padding: 5px 10px 5px 10px;
-}
-
-h2 a:hover {
-    background-color: darkred;
-    text-decoration: none;
-    color: white;
+    font-size: 20px;;
 }
 
 a {
-    color: darkred;
+    color: #b71c1c;
 }
 
 .jumbotron-fluid {
-    background-image: url(../img/5.jpg);
+    background-image: url(../img/8.jpg);
     background-size: cover;
     background-color: none;
     background-position: center center;
@@ -71,9 +60,48 @@ a {
 }
 
 .jumbotron-fluid h1.display-3 a {
-    color: black;
+    color: white;
 }
 
 .col-md-6, .col-lg-4 {
     margin-bottom: 30px;
+}
+
+.categories {
+    background-color: #333;
+    padding: 10px;
+}
+
+.categories > img {
+    width: 80px;
+}
+
+.categories h2 {
+    color: white;
+}
+
+/* categories */
+.jumbotron.category {
+    background-image: url(../img/smarthusbg.jpg);
+    height: 300px;
+}
+.jumbotron.category > * {
+    text-transform: uppercase;
+}
+
+.category {
+    text-align: center;
+}
+
+.headericon {
+    width: 100px;
+}
+
+.icon {
+    width: 50%;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    display: block;
 }
