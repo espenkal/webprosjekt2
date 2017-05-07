@@ -30,11 +30,6 @@ footer a {
     color: white;
 }
 
-h2 {
-    font-size: 20px;
-    ;
-}
-
 a {
     color: #324049;
 }
@@ -138,6 +133,10 @@ a:hover {
 
 .subcategory:hover {
     background-color: #d32730;
+}
+
+.subcategory h2 {
+    font-size: 20px;
 }
 
 
