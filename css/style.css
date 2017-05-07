@@ -41,14 +41,21 @@ body {
     /* inline-block space fix */
 }
 
+
 /* Faktisk i bruk */
 
 h2 {
-    font-size: 20px;;
+    font-size: 20px;
+    ;
 }
 
 a {
-    color: #b71c1c;
+    color: #324049;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d32730;
 }
 
 .jumbotron-fluid {
@@ -63,7 +70,8 @@ a {
     color: white;
 }
 
-.col-md-6, .col-lg-4 {
+.col-md-6,
+.col-lg-4 {
     margin-bottom: 30px;
 }
 
@@ -72,7 +80,7 @@ a {
     padding: 10px;
 }
 
-.categories > img {
+.categories>img {
     width: 80px;
 }
 
@@ -80,12 +88,26 @@ a {
     color: white;
 }
 
+
 /* categories */
+
 .jumbotron.category {
-    background-image: url(../img/smarthusbg.jpg);
-    height: 300px;
+    height: 400px;
 }
-.jumbotron.category > * {
+
+.jumbotron.category#smarthus {
+    background-image: url(../img/smarthusbg.jpg);
+}
+
+.jumbotron.category#varmelosninger {
+    background-image: url(../img/varmelosningerbg.jpg);
+}
+
+.jumbotron.category#varmestyring {
+    background-image: url(../img/varmestyringbg.jpg);
+}
+
+.jumbotron.category>* {
     text-transform: uppercase;
 }
 
@@ -98,10 +120,42 @@ a {
 }
 
 .icon {
-    width: 50%;
+    width: 100px;
     background-color: #333;
     border-radius: 50%;
     margin: 10px auto 10px auto;
     text-align: center;
     display: block;
+}
+
+
+/* subcategory */
+
+.subcategory {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    background-color: #333;
+}
+
+.subcategory>* {
+    color: white;
+    text-align: center;
+}
+
+.subcategory>img {
+    width: 80px;
+    margin: auto;
+    display: block;
+}
+
+
+/* small breakpoint */
+
+@media (max-width: 767px) {
+    .subcategory {
+        display: block;
+        width: 100%;
+    }
 }
