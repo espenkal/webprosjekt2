@@ -4,18 +4,8 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-#share-buttons img {
-    width: 35px;
-    padding: 5px;
-    border: 0;
-    box-shadow: 0;
-    display: inline;
-}
-
-#share-buttons {
-    margin-top: .5rem;
-    padding-bottom: 2rem;
-    float: right;
+* {
+    transition: all 0.2s ease;
 }
 
 .col-sm-4 {
@@ -26,23 +16,19 @@ body {
     max-width: 970px;
 }
 
-
-/* centered columns styles */
-
-.row-centered {
-    text-align: center;
+footer {
+    background-color: #333;
+    height: 100px;
+    padding: 20px;
 }
 
-.col-centered {
-    display: inline-block;
-    float: none;
-    /* reset the text-align */
-    text-align: left;
-    /* inline-block space fix */
+footer>* {
+    color: white;
 }
 
-
-/* Faktisk i bruk */
+footer a {
+    color: white;
+}
 
 h2 {
     font-size: 20px;
@@ -148,6 +134,10 @@ a:hover {
     width: 80px;
     margin: auto;
     display: block;
+}
+
+.subcategory:hover {
+    background-color: #d32730;
 }
 
 
