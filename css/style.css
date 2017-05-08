@@ -168,6 +168,12 @@ h1 {
     position: relative;
 }
 
+.produktwrap {
+    max-width: 960px;
+    position: relative;
+    margin: auto;
+}
+
 .produktkatalog img {
     height: 300px;
 }
