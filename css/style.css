@@ -168,12 +168,16 @@ a:hover {
 
 .map {
     min-width: 500px;
-    min-height: 400px;
+    min-height: 350px;
     width: 180%;
     height: 100%;
 }
 
 ul.a {
+    list-style-type: none;
+}
+
+li.a {
     list-style-type: none;
 }
 
