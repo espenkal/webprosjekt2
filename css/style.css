@@ -119,6 +119,7 @@ a:hover {
 
 .jumbotron.category#varmelosninger {
     background-image: url(../img/varmelosningerbg.jpg);
+    background-position: bottom;
 }
 
 .jumbotron.category#varmestyring {
