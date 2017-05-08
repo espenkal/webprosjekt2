@@ -51,7 +51,6 @@ a:hover {
 
 .jumbotron h1 {
     text-shadow: 1px 1px #333;
-    margin-top: 100px;
 }
 
 .navbar-brand img {
@@ -68,6 +67,11 @@ a:hover {
     background-color: none;
     background-position: center;
     height: 450px;
+}
+
+
+.jumbotron-fluid h1.display-3  {
+    margin-top: 100px;
 }
 
 .jumbotron-fluid h1.display-3 a {
