@@ -51,7 +51,7 @@ a:hover {
 }
 
 .jumbotron h1 {
-    text-shadow: 1px 1px #333;
+    text-shadow: 0 0 15px #fff;
 }
 
 .navbar-brand img {
@@ -72,7 +72,7 @@ a:hover {
 
 #hero {
     margin-top: 100px;
-    text-shadow: 0 0 7px black, 0 0 7px black;
+    text-shadow: 0 0 7px #3f3f3f;
 }
 
 .jumbotron-fluid h1.display-3 a {
