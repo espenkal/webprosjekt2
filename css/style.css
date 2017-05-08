@@ -6,8 +6,12 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4{
     font-family: 'Oxygen', sans-serif;
+}
+h4 {
+    font-weight: 800;
 }
 
 * {
@@ -155,6 +159,22 @@ h1.jumbotron {
 
 .subcategory h2 {
     font-size: 20px;
+}
+
+.map {
+    min-width: 500px;
+    min-height: 400px;
+    width: 180%;
+    height: 100%;
+}
+
+ul.a {
+    list-style-type: none;
+}
+
+li {
+    font-weight: 800; 
+    font-size: 108%;
 }
 
 
