@@ -45,7 +45,7 @@ a:hover {
     color: #d32730;
 }
 
-h1 {
+h1.jumbotron {
     text-shadow: 1px 1px #333;
 }
 
