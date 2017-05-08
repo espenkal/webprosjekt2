@@ -232,6 +232,14 @@ li.a {
     width: 100%;
 }
 
+/* artikkel */
+
+.pull-left {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
 
 /* small breakpoint */
 
