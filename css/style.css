@@ -29,8 +29,9 @@ h4 {
 
 footer {
     background-color: #333;
-    height: 100px;
+    height: 80px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 footer>* {
