@@ -158,6 +158,35 @@ h1 {
 }
 
 
+/* produktkatalog */
+
+.produktkatalog {
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    background-image: url(../img/bg.jpg);
+    position: relative;
+}
+
+.produktkatalog img {
+    height: 300px;
+}
+
+.text-wrap {
+    position: absolute;
+    height: 300px;
+    display: table;
+    top: 0;
+    right: 0
+}
+
+.produktkatalog h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
 /* small breakpoint */
 
 @media (max-width: 767px) {
