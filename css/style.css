@@ -164,6 +164,11 @@ ul.a {
     list-style-type: none;
 }
 
+li {
+    font-weight: 800; 
+    font-size: 108%;
+}
+
 
 /* small breakpoint */
 
