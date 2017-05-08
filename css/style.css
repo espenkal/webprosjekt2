@@ -70,7 +70,7 @@ a:hover {
     height: 450px;
 }
 
-.jumbotron-fluid h1.display-3 {
+#hero {
     margin-top: 100px;
 }
 
@@ -220,6 +220,13 @@ li {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
+}
+
+
+/* map */
+
+.map {
+    width: 100%;
 }
 
 
