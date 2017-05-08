@@ -12,7 +12,6 @@ h4{
 }
 h4 {
     font-weight: 800;
-
 }
 
 * {
@@ -152,6 +151,17 @@ a:hover {
 
 .subcategory h2 {
     font-size: 20px;
+}
+
+.map {
+    min-width: 500px;
+    min-height: 400px;
+    width: 180%;
+    height: 100%;
+}
+
+ul.a {
+    list-style-type: none;
 }
 
 
