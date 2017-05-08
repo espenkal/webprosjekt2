@@ -49,16 +49,24 @@ a:hover {
     color: #d32730;
 }
 
+h1 {
+    text-shadow: 1px 1px #333;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
 .jumbotron {
     background-position: center;
 }
 
 .jumbotron-fluid {
-    background-image: url(../img/8.jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     background-color: none;
     background-position: center;
-    height: 400px;
+    height: 450px;
 }
 
 .jumbotron-fluid h1.display-3 a {
@@ -167,6 +175,42 @@ ul.a {
 li {
     font-weight: 800; 
     font-size: 108%;
+}
+
+
+/* produktkatalog */
+
+.produktkatalog {
+    width: 100%;
+    height: 320px;
+    padding: 20px;
+    background-image: url(../img/bg.jpg);
+    position: relative;
+}
+
+.produktwrap {
+    max-width: 960px;
+    position: relative;
+    margin: auto;
+}
+
+.produktkatalog img {
+    height: 290px;
+}
+
+.text-wrap {
+    position: absolute;
+    height: 290px;
+    display: table;
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+
+.produktkatalog h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
 }
 
 
