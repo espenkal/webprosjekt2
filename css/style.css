@@ -51,6 +51,7 @@ a:hover {
 
 .jumbotron h1 {
     text-shadow: 1px 1px #333;
+    margin-top: 100px;
 }
 
 .navbar-brand img {
