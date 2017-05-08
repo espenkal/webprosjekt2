@@ -7,9 +7,10 @@ body {
 h1,
 h2,
 h3,
-h4{
+h4 {
     font-family: 'Oxygen', sans-serif;
 }
+
 h4 {
     font-weight: 800;
 }
@@ -69,8 +70,7 @@ a:hover {
     height: 450px;
 }
 
-
-.jumbotron-fluid h1.display-3  {
+.jumbotron-fluid h1.display-3 {
     margin-top: 100px;
 }
 
@@ -182,7 +182,7 @@ li.a {
 }
 
 li {
-    font-weight: 800; 
+    font-weight: 800;
     font-size: 108%;
 }
 
