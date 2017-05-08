@@ -72,6 +72,7 @@ a:hover {
 
 #hero {
     margin-top: 100px;
+    text-shadow: 0 0 7px black, 0 0 7px black;
 }
 
 .jumbotron-fluid h1.display-3 a {
