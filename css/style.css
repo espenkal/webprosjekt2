@@ -220,6 +220,7 @@ li.a {
     background-image: url(../img/bg.jpg);
     position: relative;
     margin-bottom: -20px;
+    transition: none;
 }
 
 .produktwrap {
@@ -239,12 +240,14 @@ li.a {
     top: 0;
     right: 0;
     width: 60%;
+    transition: none;
 }
 
 .produktkatalog h1 {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
+    transition: none;
 }
 
 
@@ -271,5 +274,8 @@ li.a {
         display: block;
         width: 98%;
         margin: 1%;
+    }
+    h1 {
+        font-size: 3em !important;
     }
 }
