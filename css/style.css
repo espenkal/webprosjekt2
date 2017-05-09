@@ -1,3 +1,9 @@
+* {
+    transition: all 0.2s ease;
+}
+
+/* Typography */
+
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro');
 html,
 body {
@@ -25,19 +31,14 @@ footer p {
 
 nav {
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .nav-link {
     font-size: 1.2em;
 }
 
-* {
-    transition: all 0.2s ease;
-}
-
-nav {
-    margin-bottom: 20px;
-}
+/* Layout */
 
 .col-sm-4 {
     padding-top: 20px;
