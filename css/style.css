@@ -23,13 +23,12 @@ footer p {
     color: white;
 }
 
-<<<<<<< HEAD
 nav {
     font-weight: 800;
-=======
+}
+
 .nav-link {
     font-size: 1.2em;
->>>>>>> origin/master
 }
 
 * {
@@ -252,12 +251,13 @@ li.a {
     width: 100%;
 }
 
+
 /* artikkel */
 
 .pull-left {
-  float: left;
-  padding-right: 30px;
-  padding-bottom: 20px;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 
