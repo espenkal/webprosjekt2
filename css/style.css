@@ -59,6 +59,12 @@ a:hover {
     color: #d32730;
 }
 
+.cont {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+
 .jumbotron h1 {
     text-shadow: 0 0 15px #fff;
 }
@@ -72,7 +78,7 @@ a:hover {
 }
 
 .jumbotron-fluid {
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/hero2.jpg);
     background-size: cover;
     background-color: none;
     background-position: center;
