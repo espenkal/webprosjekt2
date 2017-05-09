@@ -23,8 +23,16 @@ footer p {
     color: white;
 }
 
+.nav-link {
+    font-size: 1.2em;
+}
+
 * {
     transition: all 0.2s ease;
+}
+
+nav {
+    margin-bottom: 20px;
 }
 
 .col-sm-4 {
@@ -74,7 +82,6 @@ a:hover {
 .jumbotron-fluid {
     background-image: url(../img/hero.jpg);
     background-size: cover;
-    background-color: none;
     background-position: center;
     height: 450px;
 }
@@ -199,6 +206,7 @@ li.a {
     padding: 20px;
     background-image: url(../img/bg.jpg);
     position: relative;
+    margin-bottom: -20px;
 }
 
 .produktwrap {
