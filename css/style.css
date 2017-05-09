@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro');
 * {
     transition: all 0.2s ease;
 }
 
+
 /* Typography */
 
-@import url('https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro');
 html,
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -37,6 +38,7 @@ nav {
 .nav-link {
     font-size: 1.2em;
 }
+
 
 /* Layout */
 
