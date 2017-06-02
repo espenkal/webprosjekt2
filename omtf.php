@@ -1,7 +1,7 @@
 <?php 
 $database = require 'app/app.php';
 $table = $database->selectAll('posts');
-$title = 'Om oss - ThermoFloor';
+$pagetitle = 'Om oss - ThermoFloor';
 include_once('partials/head.php');
 ?>
 <!-- første rad -->

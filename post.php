@@ -1,7 +1,7 @@
 <?php 
 $database = require 'app/app.php';
 $post = $database->fetch($_GET['id']);
-$title = $post['title'];
+$pagetitle = $post['title'];
 include_once('partials/head.php');
 ?>
 

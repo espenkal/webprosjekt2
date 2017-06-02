@@ -1,7 +1,7 @@
 <?php 
 $database = require 'app/app.php';
 $table = $database->selectAll('posts');
-$title = 'ThermoFloor';
+$pagetitle = 'ThermoFloor';
 include_once('partials/head.php');
 ?>
 <!-- Jumbotron -->

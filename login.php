@@ -1,4 +1,5 @@
 <?php 
+$title = 'login - Thermofloor';
 $message = '';
 require_once('app/loginController.php');
 include_once('partials/head.php');

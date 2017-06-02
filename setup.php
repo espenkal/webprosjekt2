@@ -5,6 +5,7 @@ $config = require 'app/config.php';
 $config = $config['database'];
 
 try {
+    echo 'setup running';
     // define vars
     $database   = $config['name'];
     $connection = $config['connection'];

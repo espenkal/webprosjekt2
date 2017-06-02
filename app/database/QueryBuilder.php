@@ -28,12 +28,13 @@ class QueryBuilder {
         return $this->query("SELECT * FROM posts WHERE id = {$id}")->fetch();
     }
     // prepared statement for post
-    public function post($title, $ingress, $body, $imgsrc){
-        $statement = $this->pdo->prepare("INSERT INTO posts(title, ingress, body, imgsrc) VALUES(:title, :ingress, :body, :imgsrc)");
+    public function post($title, $ingress, $body, $imgsrc, $category){
+        $statement = $this->pdo->prepare("INSERT INTO posts(title, ingress, body, imgsrc, category) VALUES(:title, :ingress, :body, :imgsrc, :category)");
         $statement->bindParam(':title', $title);
         $statement->bindParam(':ingress', $ingress);
         $statement->bindParam(':body', $body);
         $statement->bindParam(':imgsrc', $imgsrc);
+        $statement->bindParam(':category', $category);
         $statement->execute();
     }
 }

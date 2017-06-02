@@ -1,4 +1,5 @@
 <?php
+$pagetitle = 'create new post - Thermofloor';
 $database = require('app/app.php');
 $message = '';
 // post content in form to database
@@ -33,7 +34,7 @@ include_once('partials/head.php');
 
     <body>
         <div class="container">
-            <form method="post">
+            <form action="#" method="post">
                 <div class="form-group">
                     <label for="title">Title</label>
                     <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="title" name="title">
@@ -53,9 +54,9 @@ include_once('partials/head.php');
                 <div class="form-group">
                     <label for="category">Velg kategori</label>
                     <select class="form-control" id="category" name="category">
-                      <option>Smarthus</option>
-                      <option>Varmeløsninger</option>
-                      <option>Varmestyring</option>
+                      <option value="Smarthus">Smarthus</option>
+                      <option value="Varmeløsninger">Varmeløsninger</option>
+                      <option value="Varmestyring">Varmestyring</option>
                     </select>
                 </div>
                 <!--
@@ -65,7 +66,7 @@ include_once('partials/head.php');
             </div>
             -->
 
-                <button type="submit" class="btn btn-primary" name="post">Submit</button>
+                <button type="submit" class="btn btn-primary" name="post" value="get values">Submit</button>
             </form>
 
             <?php if($message !=""): ?>

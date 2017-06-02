@@ -2,7 +2,7 @@
 $database = require 'app/app.php';
 $sql = "SELECT * FROM posts WHERE category = 'smarthus'";
 $table = $database->select($sql);
-$title = 'Smarthus - ThermoFloor';
+$pagetitle = 'Smarthus - ThermoFloor';
 include_once('partials/head.php');
 ?>
     <!-- Jumbotron -->
