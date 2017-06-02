@@ -1,7 +1,7 @@
 <?php
 // this file is used first time only
 // get config and select array
-$config = require 'config.php';
+$config = require 'app/config.php';
 $config = $config['database'];
 
 try {
@@ -19,10 +19,10 @@ try {
     $sql = "use $database";
     $conn->exec($sql);
     // use normal connection method
-    $database = require 'app.php';
+    $database = require 'app/app.php';
     // populate and redirect
-    $database->query(file_get_contents('database/seed.sql'));
-    header('location:createpost.php');
+    $database->query(file_get_contents('app/database/seed.sql'));
+    header('location:index.php');
 }
 catch(PDOException $e)
 {
