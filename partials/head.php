@@ -15,6 +15,7 @@
 </head>
 
 <body>
+   <?php include_once("analyticstracking.php") ?>
     <!-- Nav -->
     <nav class="navbar navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
